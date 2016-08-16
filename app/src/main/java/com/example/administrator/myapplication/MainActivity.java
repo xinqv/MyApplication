@@ -20,12 +20,6 @@ import org.xutils.x;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext;
-
-
-
-
-
-
     private Button btn_insert;
     private Button btn_query;
     private Button btn_update;
@@ -37,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //aaa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mContext = MainActivity.this;
